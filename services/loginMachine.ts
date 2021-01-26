@@ -1,7 +1,6 @@
 import { Machine, assign } from 'xstate'
 
 const validatePassword = (data, context) => {
-  console.log('validatePassword', { data, context })
   const { email, password } = context.data
   return new Promise((resolve, reject) => {
     setTimeout(() => {

@@ -15,8 +15,6 @@ export default function LoginPage() {
     router.push('/pokedex')
   }
 
-  console.log(form, machine.value)
-
   return (
     <div className='min-h-screen p-2 flex items-center flex-col justify-center font-sans'>
       <form

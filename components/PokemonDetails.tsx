@@ -9,7 +9,6 @@ export const PokemonDetails = ({
   pokemon,
   allPokemons,
 }: PokemonDetailsProps) => {
-  console.log(pokemon)
   const { evolutions, classification, maxHP } = pokemon
 
   return (
