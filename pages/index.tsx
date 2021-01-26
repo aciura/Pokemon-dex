@@ -44,7 +44,7 @@ export default function LoginPage() {
           required
         />
         {machine.matches('error') && (
-          <div className='bg-red-600 text-white'>
+          <div className='text-red-600'>
             {(machine.context as any).message ??
               'Please provide email & password'}
           </div>

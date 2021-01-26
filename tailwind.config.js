@@ -1,15 +1,18 @@
 module.exports = {
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'media', // 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
-        graphite: '#1C1D1F',
-        'dark-grey': '#2D2F36',
-        'medium-grey': '#3B3E46',
-        'light-grey': '#484D57',
-        'input-box-grey': '#3F414B',
-        'my-yellow': '#F2C94C',
+        graphite: 'rgba(28, 29, 31, 1)',
+        'dark-grey': 'rgba(45, 47, 54, 1)',
+        'medium-grey': 'rgba(59, 62, 70, 1)',
+        'light-grey': 'rgba(72, 77, 87, 1)',
+        'input-box-grey': 'rgba(63, 65, 75, 1)',
+        'my-yellow': 'rgba(242, 201, 76, 1)',
+      },
+      gridTemplateColumns: {
+        layout: '4fr 6fr',
       },
     },
   },
