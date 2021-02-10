@@ -21,7 +21,7 @@ Project uses:
 - Typescript
 - Tailwind CSS
 - [XState - state management](https://xstate.js.org/docs/packages/xstate-react/)
-- Graphql API
+- Graphql API with '@apollo/client'
 
 1. Login page checks static credentials (admin@admin / admin) 
 2. "Pokedex", a simply dashboard that renders a list of Pokemon.
